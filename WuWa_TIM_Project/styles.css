@@ -1,0 +1,202 @@
+/* Styles for scrollbar */
+::-webkit-scrollbar {
+  width: 0px; /* Set the width of the scrollbar */
+}
+
+/* General style */
+body {
+  font-family: Courier, monospace;
+  background-color: #A0B7D1; /* Pale light blue background */
+  min-height: 100vh;
+  color: #FFFFFF; /* Soft white text color */
+}
+
+/* Header styles */
+header {
+  background-color: #2a659c; /* Lighter slate blue header background */
+  padding: 4px 0;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+/* Navigation styles */
+.navbar-nav {
+  display: flex;
+  align-items: center; 
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.custom-navbar {
+  background-color: #2a659c; 
+}
+
+.container {
+  margin-top: 25px;
+  margin-right: 100px; 
+  padding-top: 5px;
+  max-width: 100vw;
+}
+
+h2 {
+  font-family: Courier, monospace;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #6E93D6; 
+}
+
+.div {
+  margin-left: 10px;
+  margin-right: 10px; 
+  padding-top: 5px;
+  max-width: 100vw;
+
+  div {
+    margin-bottom: 25px;
+    border: 2px solid #A3E4F9; 
+    border-radius: 15px; 
+    padding: 20px 20px 15px 20px; 
+  }
+
+  h2 {
+    font-weight: bold;
+  }
+  h4 {
+    color: #D2B6FF;
+  }
+  p, ul, il {
+    font-size: large;
+  }
+}
+
+.message {
+  text-align: left;
+  .main {
+    text-align: center;  
+    font-size: large;  
+  }  
+}
+
+/* Gallery carousel styles */  
+#carouselExampleControls {  
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+}  
+
+.carousel-inner {  
+  text-align: center;  
+  margin-top: 30px;  
+}  
+
+.carousel-item img {  
+  max-width: 100%;  
+  height: auto;  
+  margin: 0 auto;  
+}  
+
+.carousel-caption {  
+  background-color: rgba(255, 255, 255, 0.6);   
+  text-align: center;  
+}  
+
+.carousel-caption h5,  
+.carousel-caption p {  
+  margin: 0;  
+}  
+
+.carousel-control-prev,  
+.carousel-control-next {  
+  opacity: 0;  
+  background: transparent;  
+  border: none;  
+  outline: none;  
+}  
+
+.carousel-control-prev-icon,  
+.carousel-control-next-icon {  
+  background-image: none;  
+}  
+
+h5 {  
+  font-family: Courier, monospace;  
+  font-weight: bold;  
+  margin-bottom: 15px;  
+}  
+
+/* Styling the form container */  
+.form-container {  
+  max-width: 400px;  
+  margin: 0 auto;  
+  padding: 20px;  
+  background-color: #B1C5D8; 
+  border-radius: 10px;  
+  margin-top: 50px;  
+}  
+
+/* Styling the form labels and inputs */  
+form label {  
+  display: block;  
+  margin-bottom: 8px;  
+  color: #FFFFFF;
+}  
+
+form input {  
+  width: 100%;  
+  padding: 8px;  
+  margin-bottom: 15px;  
+  border: 1px solid #6E93D6; 
+  border-radius: 5px;  
+  background-color: #E1E9F7; 
+  color: #333333;  
+}  
+
+/* Styling the submit button */  
+form input[type="submit"] {  
+  background-color: #abc8ff; 
+  color: hsl(219, 100%, 94%);  
+  cursor: pointer;  
+}  
+
+/* Styling the register button */  
+form button {  
+  background-color: #A3E4F9; 
+  color: #1A1F36;
+  border: 1px solid #6E93D6; 
+  border-radius: 10px;  
+  cursor: pointer;  
+}  
+
+/* Hover effect for the register button */  
+form button:hover {  
+  text-decoration: underline;  
+}  
+
+/* Table styles */  
+.table {  
+  width: 100%;  
+}  
+
+.table-dark th, .table-dark td {  
+  background-color: #A0B7D1; 
+  color: #1A1F36; 
+}  
+
+.table-dark a {  
+  color: #FFABAB; 
+  text-decoration: none;  
+}  
+
+/* Responsive styling */  
+@media (max-width: 767px) {  
+  .navbar-nav {  
+    text-align: center;  
+  }  
+
+  .navbar-nav .nav-item {  
+    margin: 10px 0;  
+  }  
+}  
